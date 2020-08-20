@@ -1,0 +1,3 @@
+<?php 
+
+Echo 'Hola prueba';
