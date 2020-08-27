@@ -1,6 +1,8 @@
 <?php
 
-require_once "controllers/template.controller.php";
+require_once "controladores/plantilla.controlador.php";
 
-$template = new ControllerTemplate();
-$template -> ctrTemplate();
+require_once "modelos/rutas.php";
+
+$plantilla = new ControladorPlantilla();
+$plantilla -> ctrPlantilla();

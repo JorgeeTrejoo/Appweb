@@ -11036,7 +11036,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span::after, .rd-navbar-toggle span::before, .rd-navbar-toggle span {
 	width: 24px;
 	height: 2px;
-	background-color: #262f3c;
+	background-color: rgb(255, 255, 255, .7);
 	backface-visibility: hidden;
 	border-radius: 0;
 }

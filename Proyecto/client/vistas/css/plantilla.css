@@ -1,0 +1,59 @@
+/* [ Variables ] */
+
+:root{
+    --fondo-appweb: #16202b;
+    --fondo-appweb-claro: rgb(26, 39, 52);
+    --color-primario: rgb(110, 193, 228);
+    --color-blanco: rgb(255, 255, 255);
+    --color-blanco-ligero: rgba(255, 255, 255, .7);
+}
+
+.fondo-appweb{
+    background: var(--fondo-appweb) !important;
+}
+
+
+.fondo-appweb-claro{
+    background: rgb(26, 39, 52) !important;
+}
+
+/* [ Colores ] */
+.color-primario{
+    color: rgb(110, 193, 228);
+}
+
+/* [ Botonoes ]*/
+.boton{
+    padding: 10px 15px;
+}
+.boton-color-blanco{
+    color: var(--color-blanco);
+}
+.boton-redondo{
+    border-radius: 50px;
+    border: 1px solid var(--color-blanco-claro);
+}
+
+/* [ Enlaces ] */
+.enlace{
+    text-decoration: none;
+    color: var(--color-blanco-ligero) !important;
+}
+.enlace:hover{
+    color: var(--color-primario) !important;
+}
+
+/* [ Textos ] */
+.texto-mayusculas{
+    text-transform: uppercase;
+}
+
+/* [ Logotipo ] */
+.logotipo{
+    width: 70px;
+}
+
+/* [ Footer ] */
+.titulo-footer{
+    color: var(--color-primario) !important;
+}
